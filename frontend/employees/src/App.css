@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins",sans-serif;
+}
+
+body{
+    background-color: #0c0827;
+}
+
+/* .App {
+  
+} */
+
+
+.title{
+    padding: 50px 50px 40px 50px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* box-sizing: border-box; */
+  background-color: #e68313;
+  height: 130px;
+  width: 1000px;
+  margin: auto;
+  border-radius: 80px;
+}
+
+.container input{
+    margin: 10px;
+    border: none;
+    outline: none;
+    background: #e2e2b6;
+    margin: 35px;
+    padding: 15px 15px;
+    border-radius: 30px;
+    /* text-align: center; */
+}
+
+.as{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.as button{
+    margin-top: 65px;
+    margin-bottom: 35px;
+    padding: 17px 40px 17px 40px;
+    border-radius: 60px;
+    cursor: pointer;
+    transition: 0.2s;
+    background-color: #ea830e;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+
+.as button:hover{
+    transform: scale(1.07);
+    background-color: #f91d00;
+}
+
+.emps p{
+    text-align: center;
+    margin: auto;
+    color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+}
+  
+th, td {
+    padding: 15px;
+    border-bottom: 1px solid #ea830e;
+}
+  
+th {
+    background-color: #ff8800;
+}
+  
+tr:hover {
+    background-color: #ff88000c;
+}
+    
+#listb {
+    margin-left: 18px;
+    padding: 10.5px;
+    border: none;
+    outline: none;
+    background: #ff8800;
+    color: white;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+#listb:hover{
+    background-color: #f91d00;
+}
+
+
+.search{
+    display: flex;
+    justify-content: center;
+    margin: 5px 0px 35px 0px;
+}
+
+.search input{
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.858);
+    outline: none;
+    cursor: pointer;
+    border-radius: 100px;
+    font-size: 19px;
+    text-align: center;
+}
+
+.search input:focus{
+    background-color: white;
+}
